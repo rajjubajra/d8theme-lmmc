@@ -1,0 +1,23 @@
+base:
+    version: VERSION
+    css:
+        theme:
+            css/bootstrap.min.css: {}
+            css/my.css: {}
+            
+          
+    js:
+        js/jquery.min.js: {}
+        js/bootstrap.min.js: {}
+        js/front-page.js: {}
+        js/main-menu.js: {}
+        js/my.js: {}
+        
+    
+            
+googlefonts:
+    css:
+        theme:
+            '//fonts.googleapis.com/css?family=Open+Sans+Condensed:300': { type: external, minified: true }
+            '//fonts.googleapis.com/css?family=BenchNine' : { type: external, minified: true }
+            

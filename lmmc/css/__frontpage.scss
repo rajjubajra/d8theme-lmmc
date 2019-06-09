@@ -1,0 +1,26 @@
+.landing-page{
+
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .quote{
+    text-align: center;
+
+    h2{
+      font-weight: bold;
+    }
+
+    img{
+      max-width: 160px;
+      filter: grayscale(100%);
+    }
+
+    
+
+  }
+  
+}
+

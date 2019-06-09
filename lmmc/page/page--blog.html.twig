@@ -1,0 +1,34 @@
+<div class="under-construction">
+    <h1>Under-construction</h1>
+  </div>
+<div class="container-fluid">
+
+      <header role="banner">
+        {{ page.header }}
+      </header>
+
+      <div class="row">   
+        {{ page.primary_menu }}
+      </div>  
+
+      <div class="row">
+        <div class="col-md-9 order-12">
+          <div class="blog-page">
+          {{ page.content }}
+          </div>
+        </div>
+        <div class="col-md-3 order-0">
+          <div class="most-viewed">
+             {{ page.sidebar_second }}
+          </div>
+         
+        </div>
+      </div>
+
+      <div class="row">
+        <footer role="contentinfo">
+          {{ page.footer }}
+        </footer>
+      </div>
+
+</div>

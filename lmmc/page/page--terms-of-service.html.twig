@@ -1,0 +1,29 @@
+<div class="under-construction">
+    <h1>Under-construction</h1>
+  </div>
+<div class="container-fluid">
+
+    <header role="banner">
+      {{ page.header }}
+    </header>
+
+    <div class="row">
+      {{ page.primary_menu }}
+    </div>
+
+   
+    <div class="privacy-policies" >
+      
+        {{ page.content }}
+    
+    </div>
+
+    {% if page.footer %}
+      <footer role="contentinfo">
+        {{ page.footer }}
+      </footer>
+    {% endif %}
+
+  
+
+</div>{# /.layout-container #}

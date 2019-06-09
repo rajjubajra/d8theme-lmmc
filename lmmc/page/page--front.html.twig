@@ -1,0 +1,26 @@
+<div class="container-fluid" id="landing-page-bg">
+
+  <header role="banner">
+    {{ page.header }}
+  </header>
+
+<div class="row">
+ {{ page.primary_menu }}
+</div>
+ 
+ <div class="row"> 
+ <div id="quotes"></div>
+   <div class="landing-page">
+    {{page.landingpage}}
+  </div> 
+</div>
+  {% if page.footer %}
+  <div class="row">
+    <footer class="stick-to-bottom">
+      {{ page.footer }}
+    </footer>
+  </div>  
+  {% endif %}
+
+</div>{# /.layout-container #}
+

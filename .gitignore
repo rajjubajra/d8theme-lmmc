@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+templates/
+gulpfile.js
+
+# Optional npm cache directory
+.npm
+
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+

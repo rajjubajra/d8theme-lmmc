@@ -1,0 +1,64 @@
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+@import './_event';
+@import './_nav';
+@import './_frontpage';
+@import './_blog';
+@import './_contact';
+@import './_footer';
+@import './_registration';
+@import './_faq';
+@import './_aboutus';
+@import './_login';
+
+.stick-to-top,
+.fixed-at-top{
+  position: fixed;
+  top: 0px;
+}
+
+img{
+  filter: grayscale(0%);
+  width:100%;
+}
+
+.stick-to-bottom,
+.fixed-at-bottom{
+  position: fixed;
+  bottom: 0px;
+}
+
+.hide,
+.visually-hidden{
+  display: none !important;
+}
+
+.show{
+  display: flex;
+  transition-duration: 2s;
+  height: auto;
+}
+
+
+.btn-primary,
+.btn-primary:hover {
+  color: #fff;
+  background-color: #666;
+  border-color: #000;
+}
+
+
+.under-construction{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: white;
+  z-index: 100;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+

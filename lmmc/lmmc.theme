@@ -1,0 +1,7 @@
+
+<?php
+
+
+function YOUR_THEME_preprocess_node(&$variables) {
+  $variables['url_root'] = $GLOBALS['base_url'];
+}
