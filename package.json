@@ -12,5 +12,14 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.12.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajjubajra/d8theme-lmmc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajjubajra/d8theme-lmmc/issues"
+  },
+  "homepage": "https://github.com/rajjubajra/d8theme-lmmc#readme"
 }
