@@ -4,7 +4,6 @@ node_modules/
 templates/
 
 # Dependency files
-gulpfile.js
 package-lock.json
 package.json
 
