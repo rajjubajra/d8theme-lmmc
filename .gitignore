@@ -1,7 +1,14 @@
+
 # Dependency directories
 node_modules/
 templates/
+
+# Dependency files
 gulpfile.js
+package-lock.json
+package.json
+
+
 
 # Optional npm cache directory
 .npm
